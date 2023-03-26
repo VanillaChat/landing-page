@@ -25,7 +25,7 @@
     background: #45443a;
     transform: scale(1.05);
 }
-.button:active {
+.button:focus {
     background: #33322b;
     transform: scale(0.97);
 }
