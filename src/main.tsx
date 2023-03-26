@@ -6,6 +6,7 @@ import Button from "./Button/Button";
 import DiscordLogo from './assets/discord.svg';
 import TwitterLogo from './assets/twitter.svg';
 import YouTubeLogo from './assets/youtube.svg';
+import GitHubLogo from './assets/github.svg';
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
@@ -16,6 +17,10 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
           <Button href="https://discord.gg/mXZZzSHGnR" target="_blank">
               <img src={DiscordLogo} alt="Discord" />
               Discord
+          </Button>
+          <Button href="https://github.com/VanillaChat" target="_blank">
+              <img src={GitHubLogo} alt="Discord" />
+              GitHub
           </Button>
           <Button href="https://twitter.com/@VanillaChat0" target="_blank">
               <img src={TwitterLogo} alt="Twitter" />

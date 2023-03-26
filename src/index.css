@@ -41,3 +41,15 @@ html, body, #root {
     flex-direction: row;
     gap: 10px;
 }
+@media screen and (max-width: 576px) {
+    .buttonContainer {
+        flex-direction: column;
+        width: 99%;
+    }
+    .buttonContainer > .button {
+        width: 85%;
+    }
+    .subtitle {
+        width: 100%;
+    }
+}
